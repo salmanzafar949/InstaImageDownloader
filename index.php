@@ -13,44 +13,31 @@ if(isset($_GET['code'])) {
     $code = $_GET['code'];
     if (!empty($code)) {
         echo $code;
-        ?>
-        <script type="text/javascript">
-            $('#link').hide();
-        </script>
-        <?php
     }
 }
 else
 {
-
-?>
-    <script type="text/javascript">
-        $('#link').show();
-    </script>
-<?php
-}
-
 ?>
 
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-<!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 
-<div class="container">
+    <div class="container">
 
     <span align="center" id="link">
         <a href="https://www.instagram.com/oauth/authorize/?client_id=<?php echo client_id; ?>&type=web_server&response_type=code&scope=basic&redirect_uri=<?php echo redirect_uri;?>" class="btn btn-primary">Login</a>
     </span>
 
-</div>
+    </div>
 
-<!--<script type="text/javascript">-->
-<!--    $('#link').show();-->
-<!--</script>-->
+    <?php
+}
+
+?>
