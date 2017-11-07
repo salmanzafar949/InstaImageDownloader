@@ -17,10 +17,10 @@
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="312">
-              <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
               <folding>
-                <marker date="1510049343686" expanded="true" signature="1451:1729" ph="..." />
-                <marker date="1510049343686" expanded="true" signature="1488:1717" ph="..." />
+                <marker date="1510049412951" expanded="true" signature="1445:1723" ph="..." />
+                <marker date="1510049412951" expanded="true" signature="1482:1711" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510037286887</updated>
-      <workItem from="1510037288132" duration="8967000" />
+      <workItem from="1510037288132" duration="9037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8967000" />
+    <option name="totallyTimeSpent" value="9037000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -174,10 +174,10 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
-          <caret line="33" column="20" lean-forward="false" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
           <folding>
-            <marker date="1510049343686" expanded="true" signature="1451:1729" ph="..." />
-            <marker date="1510049343686" expanded="true" signature="1488:1717" ph="..." />
+            <marker date="1510049412951" expanded="true" signature="1445:1723" ph="..." />
+            <marker date="1510049412951" expanded="true" signature="1482:1711" ph="..." />
           </folding>
         </state>
       </provider>
