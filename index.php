@@ -9,7 +9,7 @@
 include 'InstaApi.php';
 
 
-if($_GET['code'])
+if(isset($_GET['code']))
 {
  $code = $_GET['code'];
  echo $code;
@@ -50,6 +50,6 @@ else
 
 </div>
 
-<script type="text/javascript">
-    $('#link').hide();
-</script>
+<!--<script type="text/javascript">-->
+<!--    $('#link').show();-->
+<!--</script>-->
