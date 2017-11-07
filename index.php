@@ -27,9 +27,9 @@ if(isset($_GET['code'])) {
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,false);
         $res = curl_exec($curl);
         curl_close($curl);
-        echo $res."<br>";
+//        echo $res."<br>";
         $user_data = json_decode($res,true);
-        $username = $user_data['user']['name'];
+        $username = $user_data['user']['username'];
         echo $username;
 }
 else
