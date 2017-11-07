@@ -67,7 +67,9 @@ function print_user_images($user_id, $token)
 
 function save_images($image_url)
 {
-   echo $image_url."<br>";
+   //echo $image_url."<br>";
+   $image_name = basename($image_url);
+   echo $image_name."<br>";
 }
 
 function download_images($image_url)
