@@ -42,6 +42,7 @@ function get_user_id_instagram($username)
     $instaInfo = connect_to_insta($url);
     $user_info = json_decode($instaInfo, true);
 
+    echo $instaInfo;
     //return $user_info['data'][0]['id'];
-    echo $user_info['data'][0]['id'];
+    //echo $user_info['data'][0]['id'];
 }
