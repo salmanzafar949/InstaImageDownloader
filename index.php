@@ -33,9 +33,9 @@ if(isset($_GET['code'])) {
     $user_data = json_decode($res,true);
     $username = $user_data['user']['username'];
     $access_token = $user_data['access_token'];
-    echo $access_token;
+    //echo $access_token;
     //echo $username."<br>";
-   // get_user_id_instagram($username);
+    get_user_id_instagram($username, $access_token);
 }
 else
 {

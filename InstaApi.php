@@ -36,21 +36,13 @@ function connect_to_insta($url)
     return $result;
 }
 
-function get_user_id_instagram($username)
+function get_user_id_instagram($username, $access_token)
 {
-     $code = $_GET['code'];
-    $access_token_settings=array(
-        'client_id' =>  client_id,
-        'client_secret' =>  client_secret,
-        'grant_type'   => 'authorization_code',
-        'redirect_uri' => redirect_uri,
-        'code'  => $code
-    );
-    $url =$url = "https://api.instagram.com/v1/users/search?q='.$username.'&access_token='.$access_token_settings.'";
+    $url =$url = "https://api.instagram.com/v1/users/search?q='.$username.'&access_token='.$access_token.'";
     $instaInfo = connect_to_insta($url);
     $user_info = json_decode($instaInfo, true);
 
-    echo $instaInfo;
+    //echo $instaInfo;
     //return $user_info['data'][0]['id'];
-    //echo $user_info['data'][0]['id'];
+    echo $user_info['data'][0]['id'];
 }
