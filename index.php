@@ -7,6 +7,7 @@
  */
 
 include 'InstaApi.php';
+// to get pics user id scope=public_content
 
 $access_token="";
 
@@ -35,7 +36,8 @@ if(isset($_GET['code'])) {
     $access_token = $user_data['access_token'];
     //echo $access_token;
     //echo $username."<br>";
-    get_user_id_instagram($username, $access_token);
+    $user_id = get_user_id_instagram($username, $access_token);
+    print_user_images($user_id,$access_token);
 }
 else
 {
