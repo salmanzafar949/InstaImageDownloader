@@ -69,7 +69,12 @@ function save_images($image_url)
 {
    //echo $image_url."<br>";
    $image_name = basename($image_url);
-   echo $image_name."<br>";
+   // check to validate image with same name exist or not
+
+    $destination = ImageDir.$image_name;
+    file_put_contents($destination,file_get_contents($image_url));
+
+   //echo $image_name."<br>";
 }
 
 function download_images($image_url)
