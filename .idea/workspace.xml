@@ -16,11 +16,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            <state relative-caret-position="360">
+              <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
               <folding>
-                <marker date="1510049412951" expanded="true" signature="1445:1723" ph="..." />
-                <marker date="1510049412951" expanded="true" signature="1482:1711" ph="..." />
+                <marker date="1510049541065" expanded="true" signature="1520:1798" ph="..." />
+                <marker date="1510049541065" expanded="true" signature="1557:1786" ph="..." />
               </folding>
             </state>
           </provider>
@@ -122,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510037286887</updated>
-      <workItem from="1510037288132" duration="9037000" />
+      <workItem from="1510037288132" duration="9165000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9037000" />
+    <option name="totallyTimeSpent" value="9165000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -173,11 +173,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="33" column="13" lean-forward="false" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        <state relative-caret-position="360">
+          <caret line="35" column="22" lean-forward="false" selection-start-line="35" selection-start-column="22" selection-end-line="35" selection-end-column="22" />
           <folding>
-            <marker date="1510049412951" expanded="true" signature="1445:1723" ph="..." />
-            <marker date="1510049412951" expanded="true" signature="1482:1711" ph="..." />
+            <marker date="1510049541065" expanded="true" signature="1520:1798" ph="..." />
+            <marker date="1510049541065" expanded="true" signature="1557:1786" ph="..." />
           </folding>
         </state>
       </provider>

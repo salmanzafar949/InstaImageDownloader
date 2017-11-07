@@ -8,6 +8,7 @@
 
 include 'InstaApi.php';
 
+$access_token="";
 
 if(isset($_GET['code'])) {
 
@@ -31,7 +32,8 @@ if(isset($_GET['code'])) {
 //        echo $res."<br>";
     $user_data = json_decode($res,true);
     $username = $user_data['user']['username'];
-    echo $res;
+    $access_token = $user_data['access_token'];
+    echo $access_token;
     //echo $username."<br>";
    // get_user_id_instagram($username);
 }
