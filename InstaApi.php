@@ -38,7 +38,14 @@ function connect_to_insta($url)
 
 function get_user_id_instagram($username)
 {
-    $url =$url = "https://api.instagram.com/v1/users/search?q=".$username."&client_id=".client_id;
+    $access_token_settings=array(
+        'client_id' =>  client_id,
+        'client_secret' =>  client_secret,
+        'grant_type'   => 'authorization_code',
+        'redirect_uri' => redirect_uri,
+        'code'  => $code
+    );
+    $url =$url = "https://api.instagram.com/v1/users/search?q=".$username."&access_token=".client_id;
     $instaInfo = connect_to_insta($url);
     $user_info = json_decode($instaInfo, true);
 

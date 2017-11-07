@@ -16,8 +16,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+            <state relative-caret-position="240">
+              <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
               <folding>
                 <marker date="1510045173057" expanded="true" signature="1426:1704" ph="..." />
                 <marker date="1510045173057" expanded="true" signature="1463:1692" ph="..." />
@@ -29,8 +29,8 @@
       <file leaf-file-name="InstaApi.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/InstaApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="40" column="97" lean-forward="false" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+            <state relative-caret-position="460">
+              <caret line="47" column="88" lean-forward="false" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
               <folding />
             </state>
           </provider>
@@ -122,12 +122,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510037286887</updated>
-      <workItem from="1510037288132" duration="7871000" />
+      <workItem from="1510037288132" duration="8641000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7871000" />
+    <option name="totallyTimeSpent" value="8641000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -165,8 +165,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="34" column="11" lean-forward="false" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="11" />
+        <state relative-caret-position="240">
+          <caret line="15" column="4" lean-forward="false" selection-start-line="15" selection-start-column="4" selection-end-line="21" selection-end-column="10" />
           <folding>
             <marker date="1510045173057" expanded="true" signature="1426:1704" ph="..." />
             <marker date="1510045173057" expanded="true" signature="1463:1692" ph="..." />
@@ -176,8 +176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/InstaApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="40" column="97" lean-forward="false" selection-start-line="40" selection-start-column="97" selection-end-line="40" selection-end-column="97" />
+        <state relative-caret-position="460">
+          <caret line="47" column="88" lean-forward="false" selection-start-line="47" selection-start-column="88" selection-end-line="47" selection-end-column="88" />
           <folding />
         </state>
       </provider>
