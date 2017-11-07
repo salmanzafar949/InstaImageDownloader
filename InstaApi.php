@@ -59,6 +59,22 @@ function print_user_images($user_id, $token)
     {
         $imageurl = $items['images']['low_resolution']['url'];
         echo '<img src=" '. $imageurl. '">'."<br>";
+        save_images($imageurl);
+
     }
 
+}
+
+function save_images($image_url)
+{
+   echo $image_url;
+}
+
+function download_images($image_url)
+{
+    // Define the name of image after downloaded
+    header('Content-Disposition: attachment; filename="image.jpg"');
+
+// Read the original image file
+    readfile('file.jpg');
 }
