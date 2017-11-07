@@ -20,17 +20,19 @@ if(isset($_GET['code'])) {
             'redirect_uri' => redirect_uri,
             'code'  => $code
         );
-        $curl = curl_init($url);
-        curl_setopt($curl, CURLOPT_POST, true);
-        curl_setopt($curl, CURLOPT_POSTFIELDS, $access_token_settings);
-        curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
-        curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,false);
-        $res = curl_exec($curl);
-        curl_close($curl);
+
+    $curl = curl_init($url);
+    curl_setopt($curl, CURLOPT_POST, true);
+    curl_setopt($curl, CURLOPT_POSTFIELDS, $access_token_settings);
+    curl_setopt($curl, CURLOPT_RETURNTRANSFER,1);
+    curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,false);
+    $res = curl_exec($curl);
+    curl_close($curl);
 //        echo $res."<br>";
-        $user_data = json_decode($res,true);
-        $username = $user_data['user']['username'];
-        echo $username;
+    $user_data = json_decode($res,true);
+    $username = $user_data['user']['username'];
+    echo $username."<br>";
+    get_user_id_instagram($username);
 }
 else
 {

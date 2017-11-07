@@ -18,3 +18,30 @@ define("client_id",'c36befae9a644153a93213757222b032');
 define("client_secret",'79607cd5df25456c82987733f53e8d33');
 define("redirect_uri",'https://still-lowlands-23712.herokuapp.com/');
 define("ImageDir","pics");
+
+function connect_to_insta($url)
+{
+    $curl = curl_init($url);
+    curl_setopt_array($curl, array(
+        CURLOPT_URL => $url,
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_SSL_VERIFYPEER => false,
+        CURLOPT_SSL_VERIFYHOST => 2
+    ));
+
+    $result = curl_exec($curl);
+    curl_close($curl);
+
+
+    return $result;
+}
+
+function get_user_id_instagram($username)
+{
+    $url ="https://www.instagram.com/v1/users/search?q='. $username .'&client_id='. client_id .'";
+    $instaInfo = connect_to_insta($url);
+    $user_info = json_decode($instaInfo, true);
+
+    //return $user_info['data'][0]['id'];
+    echo $user_info['data'][0]['id'];
+}

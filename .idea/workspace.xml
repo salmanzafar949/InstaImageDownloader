@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3ce1597-7903-445c-aa2b-9e461f97db32" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/InstaApi.php" afterPath="$PROJECT_DIR$/InstaApi.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,11 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+            <state relative-caret-position="436">
+              <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
               <folding>
-                <marker date="1510043817585" expanded="true" signature="1420:1698" ph="..." />
-                <marker date="1510043817585" expanded="true" signature="1457:1686" ph="..." />
+                <marker date="1510045173057" expanded="true" signature="1426:1704" ph="..." />
+                <marker date="1510045173057" expanded="true" signature="1463:1692" ph="..." />
               </folding>
             </state>
           </provider>
@@ -29,8 +30,8 @@
       <file leaf-file-name="InstaApi.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/InstaApi.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="460">
+              <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
               <folding />
             </state>
           </provider>
@@ -122,12 +123,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510037286887</updated>
-      <workItem from="1510037288132" duration="6058000" />
+      <workItem from="1510037288132" duration="7441000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6058000" />
+    <option name="totallyTimeSpent" value="7441000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
@@ -165,19 +166,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/InstaApi.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="19" column="26" lean-forward="true" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="460">
+          <caret line="45" column="37" lean-forward="false" selection-start-line="45" selection-start-column="37" selection-end-line="45" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="30" column="31" lean-forward="true" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
+        <state relative-caret-position="436">
+          <caret line="34" column="24" lean-forward="false" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
-            <marker date="1510043817585" expanded="true" signature="1420:1698" ph="..." />
-            <marker date="1510043817585" expanded="true" signature="1457:1686" ph="..." />
+            <marker date="1510045173057" expanded="true" signature="1426:1704" ph="..." />
+            <marker date="1510045173057" expanded="true" signature="1463:1692" ph="..." />
           </folding>
         </state>
       </provider>
