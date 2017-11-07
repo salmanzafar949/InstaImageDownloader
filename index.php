@@ -54,7 +54,7 @@ else
     <div class="container">
 
     <span align="center" id="link">
-        <a href="https://www.instagram.com/oauth/authorize/?client_id=<?php echo client_id; ?>&type=web_server&response_type=code&scope=basic&redirect_uri=<?php echo redirect_uri;?>" class="btn btn-primary">Login</a>
+        <a href="https://www.instagram.com/oauth/authorize/?client_id=<?php echo client_id; ?>&type=web_server&response_type=code&scope=public_content&redirect_uri=<?php echo redirect_uri;?>" class="btn btn-primary">Login</a>
     </span>
 
     </div>
