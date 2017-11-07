@@ -10,11 +10,10 @@ include 'InstaApi.php';
 
 
 if(isset($_GET['code'])) {
-    $code = $_GET['code'];
-    if (!empty($code)) {
 
-        $url ="https://www.instagram.com/oauth/access_token";
-        $access_token_settings=array(
+    $code = $_GET['code'];
+    $url ="https://www.instagram.com/oauth/access_token";
+    $access_token_settings=array(
             'client_id' =>  client_id,
             'client_secret' =>  client_secret,
             'grant_type'   => 'authorization_code',
@@ -28,14 +27,10 @@ if(isset($_GET['code'])) {
         curl_setopt($curl, CURLOPT_SSL_VERIFYPEER,false);
         $res = curl_exec($curl);
         curl_close($curl);
-
+        echo $res."<br>";
         $user_data = json_decode($res,true);
         $username = $user_data['user']['name'];
         echo $username;
-
-
-
-    }
 }
 else
 {
