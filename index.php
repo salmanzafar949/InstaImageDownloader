@@ -9,15 +9,16 @@
 include 'InstaApi.php';
 
 
-if(isset($_GET['code']))
-{
- $code = $_GET['code'];
- echo $code;
-?>
-    <script type="text/javascript">
-        $('#link').hide();
-    </script>
-<?php
+if(isset($_GET['code'])) {
+    $code = $_GET['code'];
+    if (!empty($code)) {
+        echo $code;
+        ?>
+        <script type="text/javascript">
+            $('#link').hide();
+        </script>
+        <?php
+    }
 }
 else
 {
