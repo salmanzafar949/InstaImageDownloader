@@ -49,3 +49,7 @@ else
     </span>
 
 </div>
+
+<script type="text/javascript">
+    $('#link').hide();
+</script>
